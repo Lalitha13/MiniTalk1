@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "126061091242",
+    "firebase_url": "https://minitalk-33822.firebaseio.com",
+    "project_id": "minitalk-33822",
+    "storage_bucket": "minitalk-33822.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126061091242:android:384f8e057f3cb590",
+        "android_client_info": {
+          "package_name": "com.example.lalithanjali.minitalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "126061091242-u3ur7qlde1e43j5gsmlr3tn0tlf5hfr5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lalithanjali.minitalk",
+            "certificate_hash": "a97b5ef19e023a21f069aed1ff52601831af8eb7"
+          }
+        },
+        {
+          "client_id": "126061091242-m503kstjjiooe3ev3kda5v03jhihebvi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB88L5xDWmO3_AGwBL4-9XZYhMOE8J6Rh0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "126061091242-m503kstjjiooe3ev3kda5v03jhihebvi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

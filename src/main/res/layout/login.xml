@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Login">
+
+    <Button
+        android:id="@+id/login1"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="127dp"
+        android:text="Login"
+        android:textColor="#FFF7FAF1"
+        android:textSize="20dp"
+        android:background="@drawable/button"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="544dp" />
+
+    <ImageView
+        android:id="@+id/user"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        app:srcCompat="@drawable/users5" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:ems="15"
+        android:hint="Enter EmailId"
+        android:inputType="textPersonName"
+        android:textColor="#FFF7FAF1"
+        android:textColorHint="#FFF7FAF1"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="227dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:ems="15"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:textColor="#FFF7FAF1"
+        android:textColorHint="#FFF7FAF1"
+        android:textSize="20dp" />
+
+
+
+</RelativeLayout>

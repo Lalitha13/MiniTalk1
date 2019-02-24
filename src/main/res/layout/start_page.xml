@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartPage"
+    android:background="@drawable/background">
+
+
+    <ImageView
+        android:id="@+id/appicon"
+        android:layout_width="165dp"
+        android:layout_height="195dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="172dp"
+        app:srcCompat="@drawable/lecture" />
+
+    <TextView
+        android:id="@+id/minitalk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:text="MINI TALK"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#FFFDFCFD"
+        android:layout_below="@+id/appicon"
+        android:textSize="40dp"/>
+</RelativeLayout>
